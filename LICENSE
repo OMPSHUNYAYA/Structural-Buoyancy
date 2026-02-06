@@ -1,0 +1,177 @@
+Creative Commons Attribution 4.0 International — SSB
+
+Shunyaya Structural Buoyancy (SSB)
+
+This work is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You Are Free To
+
+Share — copy and redistribute the material in any medium or format
+
+Adapt — remix, transform, and build upon the material
+
+Use — for commercial or non-commercial purposes
+
+These freedoms are irrevocable, provided the license terms are followed.
+
+No registration required
+
+No fees required
+
+No additional legal or technical restrictions may be applied
+
+
+Attribution
+
+You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+Minimum required attribution:
+
+Shunyaya Structural Buoyancy (SSB)
+
+Attribution must:
+
+acknowledge the source
+
+indicate if changes were made
+
+not imply endorsement by:
+
+the authors
+
+the Shunyaya framework
+
+any affiliated research initiative
+
+Use of this work does not grant authority, certification, approval, or official status.
+
+
+Research and Usage Notice
+
+Shunyaya Structural Buoyancy (SSB) is a deterministic structural governance framework that governs operational trust above classical buoyancy and stability, without modifying:
+
+Archimedes’ principle
+
+hydrostatics
+
+metacentric height (GM)
+
+classical force, geometry, or equilibrium laws
+
+SSB evaluates structural admissibility of reliance, not physical correctness.
+
+SSB introduces lifecycle-aware governance through:
+
+structural posture (m, a, s)
+
+deterministic resistance accumulation
+
+irreversible trust denial when admissibility is exhausted
+
+All classical physics remains exact, valid, and unchanged.
+SSB acts above physics, not in place of it.
+
+
+Intended Scope of Use
+
+SSB is intended for:
+
+naval architecture and marine engineering research
+
+offshore and floating-infrastructure safety analysis
+
+lifecycle and delayed-failure studies
+
+structural governance and safety-engineering research
+
+academic, educational, and conceptual use
+
+SSB is not:
+
+a simulation framework
+
+a probabilistic risk model
+
+a prediction engine
+
+a control system or controller
+
+an optimization or design-automation tool
+
+a certification authority
+
+SSB governs permission, not behavior.
+
+
+Integrity and Determinism
+
+Structural integrity in SSB is enforced by:
+
+deterministic execution
+
+declared (not tuned) thresholds
+
+monotonic lifecycle accumulation
+
+irreversible denial semantics
+
+reproducibility across runs and machines
+
+Integrity is structural and verifiable, not dependent on licensing restrictions.
+
+Independent implementations may exist.
+Only implementations that preserve SSB invariants represent correct behavior.
+Behavioral equivalence requires preservation of all SSB invariants.
+
+
+Relationship to Other Licenses
+
+This license applies to:
+
+the SSB specification
+
+documentation
+
+conceptual, explanatory, and academic materials
+
+Executable scripts, validation tools, datasets, or derived systems may be released under CC BY 4.0 or other open licenses only if explicitly stated.
+
+No implicit relicensing is granted.
+
+
+Responsibility
+
+Any use of SSB in:
+
+operational decision-making
+
+safety-critical environments
+
+governance or compliance contexts
+
+is undertaken entirely at the user’s own responsibility.
+
+SSB provides structural admissibility discipline,
+not authority, prediction, or guarantees.
+
+SSB outputs are advisory and governance-oriented, not executable commands.
+
+
+No Warranty
+
+THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+merchantability
+
+fitness for a particular purpose
+
+non-infringement
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+
+
+License Reference
+
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
