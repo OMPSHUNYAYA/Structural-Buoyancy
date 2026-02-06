@@ -152,58 +152,32 @@ All results are reproducible by executing the scripts.
 
 ---
 
-### **Deterministic Validation Scripts (Phase II + Phase III)**
-
-SSB intentionally exposes **multiple deterministic scripts**, each corresponding to a **canonical validation family**.  
-This preserves **clarity, auditability, and separation of concerns** — without tuning or cross-script dependency.
+### **Executable Validation Scripts**
 
 **Phase II — Canonical Validation Families**
 - Displacement sweep (static margin erosion)  
-  `scripts/ssb_disp_sweep.py`
+  [`scripts/ssb_disp_sweep.py`](scripts/ssb_disp_sweep.py)
 
 - Free-surface correction ladder (FSC accumulation)  
-  `scripts/ssb_multifsc_ladder.py`
+  [`scripts/ssb_multifsc_ladder.py`](scripts/ssb_multifsc_ladder.py)
 
 - Cyclic fatigue (structural time + lifecycle resistance)  
-  `scripts/ssb_cyclic_fatigue.py`
+  [`scripts/ssb_cyclic_fatigue.py`](scripts/ssb_cyclic_fatigue.py)
 
 **Phase III — Operational Envelope Classification**
 - Governance envelope synthesis  
-  `scripts/ssb_phase3_envelope.py`
-
-Each script:
-- is fully deterministic  
-- uses declared thresholds only  
-- produces replayable outputs  
-- contains no randomness, learning, or tuning  
-
-No script modifies physics.  
-No script learns from another.
+  [`scripts/ssb_phase3_envelope.py`](scripts/ssb_phase3_envelope.py)
 
 ---
 
 ### **Illustrative Utilities (Non-Operational)**
-
-Optional illustrative utilities reproduce **Appendix D figures only**.
-
-Location:
-- `scripts/illustrative/`
-
-Utilities:
 - Governance transition schematic  
-  `ssb_illustrative_governance_plot.py`
+  [`scripts/illustrative/ssb_illustrative_governance_plot.py`](scripts/illustrative/ssb_illustrative_governance_plot.py)
 
 - Physical stability vs structural trust visualization  
-  `ssb_illustrative_physics_vs_trust_plot.py`
+  [`scripts/illustrative/ssb_illustrative_physics_vs_trust_plot.py`](scripts/illustrative/ssb_illustrative_physics_vs_trust_plot.py)
 
-These scripts:
-- read existing Phase III outputs  
-- do **not** compute `GM`, `a`, or `s`  
-- do **not** influence decisions  
-- are **illustrative only**  
-
-Any reproduction must include the statement:  
-**“Illustrative only — no quantitative inference permitted.”**
+**Illustrative only — no quantitative inference permitted.**
 
 ---
 
