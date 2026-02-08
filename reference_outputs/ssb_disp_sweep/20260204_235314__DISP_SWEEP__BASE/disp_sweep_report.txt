@@ -1,0 +1,23 @@
+SSB DISPLACEMENT SWEEP — DETERMINISTIC REPORT
+
+case_id: DISP_SWEEP
+I_T (m^4): 3.6
+KB (m): 0.55
+KG (m): 0.9
+FSC (m): 0.0
+
+disp_vol ∇ sweep: 5.0 .. 12.0 step 0.25
+
+SSB thresholds: GM_safe=0.15  a_min=0.7  r_safe=0.1  s_max=1.0
+
+ALLOW: 12
+DENY: 17
+ABSTAIN: 0
+
+First GM_eff < GM_safe: disp_vol=7.250000  GM_eff=0.146552
+First SSB DENY: disp_vol=8.000000  GM_eff=0.100000
+First Classical UNSTABLE (GM_eff<=0): disp_vol=10.500000  GM_eff=-0.007143
+
+Outputs:
+ - ssb_disp_sweep_out\20260204_235314__DISP_SWEEP__BASE\disp_sweep.csv
+ - ssb_disp_sweep_out\20260204_235314__DISP_SWEEP__BASE\disp_sweep_report.txt
