@@ -1,0 +1,20 @@
+SSB PHASE III — ENVELOPE CLASSIFICATION REPORT
+
+input_csv: ssb_cyclic_out\20260205_000723__CYCLIC_FATIGUE__FATIGUE_LATE_DENY\cyclic_fatigue.csv
+a_min: 0.7
+s_max: 1.0
+s_warn_frac: 0.8
+
+Counts:
+ - ALLOW_NORMAL: 20
+ - ALLOW_RESTRICTED_MONITOR: 2
+ - DENY_FINAL: 378
+ - ABSTAIN_HUMAN_REVIEW: 0
+
+First Restricted: row_index=20
+First Deny: row_index=22
+First Abstain: (not reached)
+
+Outputs:
+ - ssb_phase3_out\20260205_010019__PHASE3__CYCLIC_PHASE3\phase3_classification.csv
+ - ssb_phase3_out\20260205_010019__PHASE3__CYCLIC_PHASE3\phase3_summary.txt
