@@ -1,0 +1,18 @@
+SSB CYCLIC FATIGUE — DETERMINISTIC REPORT
+
+case_id: CYCLIC_FATIGUE
+Base relations: BM=I_T/∇, KM=KB+BM, GM=KM-KG
+I_T=3.6  ∇=8.0  KB=0.55  KG=0.88  FSC=0.06
+Derived: BM=0.450000  KM=1.000000  GM=0.120000
+
+Lifecycle law:
+GM_eff(t) = GM - FSC - delta(t)
+delta schedule: mode=square amp=0.06 period=20 duty=0.35
+
+SSB thresholds: GM_safe=0.15  a_min=0.7  r_safe=0.1  s_max=1.0
+
+First DENY at t=0 with GM_eff=0.000000  delta=0.060000  a=0.000000  r=1.000000  s=0.900000
+
+Outputs:
+ - ssb_cyclic_out\20260205_000649__CYCLIC_FATIGUE__CYCLIC_BASE\cyclic_fatigue.csv
+ - ssb_cyclic_out\20260205_000649__CYCLIC_FATIGUE__CYCLIC_BASE\cyclic_fatigue_report.txt
