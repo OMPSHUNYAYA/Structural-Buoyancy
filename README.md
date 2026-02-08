@@ -147,8 +147,13 @@ SSB results remain **invariant under re-run**.
 - [**FAQ**](docs/FAQ.md)
 - [**Quickstart Guide**](docs/Quickstart.md)
 
-**Note:** Output folders are intentionally empty.  
-All results are reproducible by executing the scripts.
+**Note:**  
+The `outputs/` directory is intentionally empty by design.
+
+A minimal, curated set of **canonical reference artifacts** is provided under  
+[`reference_outputs/`](reference_outputs/) for inspection and audit clarity.
+
+All results remain fully reproducible by executing the scripts.
 
 ---
 
@@ -181,19 +186,52 @@ All results are reproducible by executing the scripts.
 
 ---
 
-### **Outputs (Reproducible by Design)**
+### **Outputs & Reference Evidence (Reproducible by Design)**
 
+SSB separates **runtime outputs** from **reference evidence** by design.
+
+#### **`outputs/` — Runtime Execution Only**
 The `outputs/` directory contains **structured folders only**.
 
-- No generated files are committed.
-- Folder names document canonical run structure.
-- All results are reproduced locally by executing the scripts.
+- **No generated files are committed**
+- Folder names document **canonical run structure**
+- Intended for **local execution and regeneration**
 
-This design ensures:
+This ensures:
 - clean repositories  
-- reproducible science  
-- audit clarity  
 - no stale or misleading artifacts  
+- exact reproducibility on demand  
+
+#### **`reference_outputs/` — Canonical Reference Evidence**
+The `reference_outputs/` directory contains a **minimal, curated set of canonical results** generated from deterministic runs.
+
+- **Exact outputs committed for audit and inspection**
+- Used as **ground-truth reference**, not as runtime state
+- Enables reviewers to verify correctness **without executing scripts**
+
+Each reference folder corresponds to a named canonical run and contains:
+- one CSV artifact (structural trace)
+- one TXT artifact (decision / summary)
+
+#### **Structural Guarantee**
+All reference artifacts satisfy the invariant:
+
+`phi((m, a, s)) = m`
+
+The physical value (`m`) remains unchanged.  
+Only **structural admissibility** governs outcomes.
+
+#### **Design Rationale**
+This hybrid layout provides:
+- **execution purity** (`outputs/` remains empty)
+- **audit credibility** (`reference_outputs/` shows real evidence)
+- **reviewer convenience** (without requiring to run code to inspect results)
+
+No simulations.  
+No tolerance.  
+No probabilistic artifacts.
+
+All results are **deterministic, replay-verifiable, and structurally exact**.
 
 ---
 
