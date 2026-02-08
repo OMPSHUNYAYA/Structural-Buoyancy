@@ -1,0 +1,18 @@
+SSB MULTI-TANK FSC LADDER — DETERMINISTIC REPORT
+
+case_id: MULTI_FSC_LADDER
+I_T (m^4): 3.6
+disp_vol ∇ (m^3): 8.0
+KB (m): 0.55
+KG (m): 0.9
+
+FSC ladder contributions (m): 0.00,0.04,0.08,0.12,0.16,0.20
+Rule: FSC_total = sum(FSC_i)
+
+SSB thresholds: GM_safe=0.15  a_min=0.7  r_safe=0.1  s_max=1.0
+
+First DENY at step i=0 with FSC_total=0.000000  GM_eff=0.100000  a=0.666667  r=0.333333  s=0.233333
+
+Outputs:
+ - ssb_multifsc_out\20260204_235810__MULTI_FSC_LADDER__LADDER_DEFAULT\multifsc_ladder.csv
+ - ssb_multifsc_out\20260204_235810__MULTI_FSC_LADDER__LADDER_DEFAULT\multifsc_ladder_report.txt
