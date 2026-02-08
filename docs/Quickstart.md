@@ -69,7 +69,13 @@ outputs/
   ssb_disp_sweep_out/  
   ssb_multifsc_out/  
   ssb_cyclic_out/  
-  ssb_phase3_out/  
+  ssb_phase3_out/
+
+reference_outputs/
+  ssb_disp_sweep_out/
+  ssb_multifsc_out/
+  ssb_cyclic_out/
+  ssb_phase3_out/
 ```
 
 ---
